@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" >
 </head>
 <body>
+    <div id="panel"></div>
     <header class="header">
         <div class="container">
             <div class="row">
@@ -24,13 +25,110 @@
                             </li>                            
                         </ul>
                     </nav>
+                    <nav class="navbar">
+                        <nav class="navbar-nav flex-row allign-items-center">
+                            <li>
+                                <a class="d-none d-lg-flex" href="#contacts">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="#">О нас</a>
+                            </li>
+                        </nav>
+                    </nav>
                 </div>
             </div>
-
         </div>
     </header>
 
-    
+    <main>
+        <section class="hero text-white position-relative"></section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 sticky-nav">
+                    <div class="d-flex align-items-center justify-content-beetween sticky">
+                        <a href="#" class="hero_logo">
+                            <img id="logo" class="h-100 w-100 object-fit-cover" src="images/logo.png" alt="logo">
+                        </a>
+                        <nav class="navbar d-none d-md-flex">
+                            <ul class="navbar-nav flex-row allign-items-center">
+                                <li>
+                                    <a href="#">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="#">Каталог</a>
+                                </li>
+                                <li>
+                                    <a href="#">Проекты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Услуги</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="d-none d-lg-flex flex-clumn">
+                            <button class="btn btn-primary me-3">Заказать звонок</button>
+                            <button class="btn btn-secondary">Записаться на замер</button>
+                        </div>
+                        <button class="d-md-none menu-btn btn border-0 bg-transparent text-white" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                        Меню
+                        </button>
+                        <div class="menu__offcanvas offcanvas offcanvas-top bg-dark w-100 d-md-none" tabindex="-1" id="mobileMenu"
+                        role="dialog" aria-label="Мобильное меню">
+                        <div class="offcanvas-header d-flex justify-content-between align-items-start">
+                            <a class="menu__logo" href="#">
+                                <img id="logo" class="h-100 w-100 object-fit-cover" src="images/logo.png" alt="logo">
+                            </a>
+                            <button type="button" class="btn border-0 bg-transparent text-white menu__btn" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть меню</button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="menu__nav nav flex-clumn">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white text-uppercase text-l mb-0 p-0" href="#">Главная</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white text-uppercase text-l mb-0 p-0" href="#">Каталог</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white text-uppercase text-l mb-0 p-0" href="#">Проекты</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white text-uppercase text-l mb-0 p-0" href="#">Услуги</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex">
+                <h2 class="mx-auto mx-md-0 mb-0 text-white">Вы создаете</h2>            </div>
+            <div class="col-12 d-flex">
+                <h1 class="mx-auto mx-md-0 text-white">мы помогаем</h1>            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex flex-column align-items-center">
+                <ul class="mb-0 d-flex flex-column align-items-center align-items-md-start"></ul>
+            </div>
+        </div>
+        <p class="position-absolute hero__text start-50 translate-middle-x">
+            Лучшие материалы и индивидуальные решения подберем для вашего интерьера</p>
+        </section>
+
+
+    <footer class=""  id="contacts">
+        <div class="">
+            <div class="row">
+                <div class="">
+                    <p class="">
+                    &copy; 2025 LUMEN. Все права защищены. </p>
+                    <p class="">
+                    Свяжитесь с нами: <a href="mailto:info@lumen.ru">info@lumen.ru</a></p>
+                </div>
+            </div>
+        </div>
+    </footer class="">
 
     <script src="index.js"></script>
 </body>
