@@ -41,6 +41,14 @@ header {
   text-decoration: none;
   color: white;
   font-family: 'Georgia', serif;
+  text-shadow: -10px -10px 5px rgb(0, 0, 0);
+}
+
+.logo_image{
+  height: 50px;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: -10px -10px 5px rgb(0, 0, 0);
 }
 
 .nav-links {
