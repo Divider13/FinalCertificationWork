@@ -18,7 +18,7 @@ body {
   padding: 0 20px;
 }
 
-/* Header Styles */
+/* Блок меню */
 header {
   background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
   color: white;
@@ -105,7 +105,7 @@ header {
   background-color: rgba(255,255,255,0.1);
 }
 
-/* Main Content Styles */
+/* Основной контент */
 main {
   padding: 3rem 0;
 }
@@ -152,7 +152,7 @@ main {
   background: #CD853F;
 }
 
-/* Catalog Section */
+/* Каталог */
 .catalog {
   margin-bottom: 4rem;
 }
@@ -213,7 +213,7 @@ main {
   font-size: 0.95rem;
 }
 
-/* About Section */
+/* О нас */
 .about {
   background: white;
   padding: 3rem;
@@ -357,7 +357,7 @@ footer {
   padding: 2rem 0;
 }
 
-/* Responsive Design */
+/* Адаптация */
 @media (max-width: 768px) {
 .nav-links {
   display: none;
