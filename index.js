@@ -28,3 +28,14 @@ mobileLinks.forEach(link => {
         lines[2].style.transform = 'rotate(0) translate(0, 0)';
     });
 });
+
+// Обработка отправки формы
+const feedbackForm = document.getElementById('feedback-form');
+if (feedbackForm) {
+    feedbackForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Здесь можно добавить логику отправки данных на сервер
+        alert('Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.');
+        feedbackForm.reset();
+    });
+}
